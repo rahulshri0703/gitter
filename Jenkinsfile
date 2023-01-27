@@ -1,10 +1,7 @@
 pipeline {
     agent any
-    tools {
-
-    }
-
-    environment {
+   
+     environment {
         registryCredential = 'ecr:us-east-1:awscred'
         appRegistry = "646218025121.dkr.ecr.us-east-1.amazonaws.com/fast-repo"
         vprofileRegistry = "https://646218025121.dkr.ecr.us-east-1.amazonaws.com"
